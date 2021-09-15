@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         MovieAdapter movieAdapter = new MovieAdapter(this, movies);
 
-        rvMovies.setAdapter(movieAdapter);
+
 
         rvMovies.setLayoutAnimation(new LinearLayoutManager(this));
 
